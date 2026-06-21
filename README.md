@@ -1,48 +1,35 @@
 # 🏆 Heal
 
+![Spigot](https://img.shields.io/badge/Spigot-Plugin-orange?style=for-the-badge)
+![Minecraft](https://img.shields.io/badge/Minecraft-Java%20Edition-3C8527?style=for-the-badge)
 ![Java](https://img.shields.io/badge/Java-100%25-blue?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge)
-![Repo](https://img.shields.io/badge/Repository-USMCsky%2FHeal-6f42c1?style=for-the-badge&logo=github)
 
-A Java project focused on **healing-oriented functionality** and clean project foundations for future growth.
+A lightweight **Minecraft Spigot plugin** that provides a simple healing command.
 
 ## Overview
 
-**Heal** is a Java repository intended as a focused starting point for a healing-related application or utility.  
-It is structured to stay simple, readable, and easy to extend as features are added.
-
-This README is intentionally concise and covers the essentials: what the project is, what it aims to provide, and how to use it.
+**Heal** is a Java-based Spigot plugin for Minecraft servers.
+It adds an easy command for instantly restoring a player's core survival stats, making moderation, events, and gameplay flow smoother.
 
 ## Features
 
-- ✅ Built with **Java**
-- ✅ Minimal, clean foundation for rapid development
-- ✅ Easy to customize and expand
-- ✅ Public GitHub repository for transparent collaboration
+- ✅ Built for **Spigot / Bukkit-based** Minecraft servers
+- ✅ Simple and fast **`/heal`** command
+- ✅ Restores both **health** and **food (hunger/saturation)**
+- ✅ Lightweight and focused functionality
+- ✅ Easy to drop into existing server plugin stacks
 
 ## Usage
 
-Because the repository is new, usage will evolve with implementation. A typical Java workflow is:
+### `/heal`
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/USMCsky/Heal.git
-   cd Heal
-   ```
+Use `/heal` in-game to fully restore your player:
 
-2. **Build or run with your preferred Java tooling**
-   - Use your IDE (IntelliJ IDEA, Eclipse, VS Code)
-   - Or run with your build system once configured (e.g., Maven/Gradle)
+- ❤️ **Health** is restored to full
+- 🍗 **Food** is restored to full
 
-3. **Start adding core functionality**
-   - Define application goals
-   - Implement features incrementally
-   - Keep documentation in sync
-
----
-
-If you'd like, next I can refine this README further with:
-- exact setup commands (once build tool is chosen),
-- project structure details,
-- contribution guidelines,
-- and license information.
+This is useful for:
+- server events,
+- admin/moderation support,
+- quick recovery between activities.
