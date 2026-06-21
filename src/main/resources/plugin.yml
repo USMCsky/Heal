@@ -1,0 +1,10 @@
+name: Heal
+version: '${version}'
+
+main: com.Main
+api-version: '1.21'
+commands:
+  heal:
+    description: Heal player command
+
+authors: [ USMCsky ]
