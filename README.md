@@ -4,6 +4,7 @@
 ![Minecraft](https://img.shields.io/badge/Minecraft-Java%20Edition-3C8527?style=for-the-badge)
 ![Java](https://img.shields.io/badge/Java-100%25-blue?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge)
+[![Author](https://img.shields.io/badge/Author-USMCsky-00bcd4.svg)](https://github.com/USMCsky)
 
 A lightweight **Minecraft Spigot plugin** that provides a simple healing command.
 
